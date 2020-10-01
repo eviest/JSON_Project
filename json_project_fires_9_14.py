@@ -23,16 +23,6 @@ for fire in list_of_fires:
         lons.append(lon)
         lats.append(lat)
 
-print("Brights")
-print(brights[:10])  
-print(len(brights))          
-print("Lons")
-print(lons[:10])
-print(len(lons))
-print("Lats")
-print(lats[:10])
-print(len(lats))
-
 
 from plotly.graph_objs import Scattergeo, Layout
 from plotly import offline
